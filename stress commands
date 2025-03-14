@@ -1,0 +1,11 @@
+FOR UBUNTU
+
+Stress-ng installation and execution command.
+#sudo apt install stress-ng
+#stress-ng --vm 64 --vm-bytes 90%
+
+
+For monitoring need to install sensors and htop.
+#sudo apt install htop lm-sensors
+#htop
+#watch sensors
